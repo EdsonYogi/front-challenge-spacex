@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
-
+import Routes from './routes'
 import {ApolloProvider} from '@apollo/client'
 import client from './services/apollo'
-
-import Routes from './routes'
 
 function App() {
   return (
