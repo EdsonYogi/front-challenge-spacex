@@ -1,0 +1,6 @@
+.main .container > .title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin: 50px 0;
+}
