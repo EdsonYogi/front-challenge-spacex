@@ -1,5 +1,5 @@
 import React from 'react'
-import './main.css'
+import './index.css'
 import { useQuery, gql } from '@apollo/client'
 import { Link } from 'react-router-dom'
 import Card from '../../component/card/Card'
@@ -40,7 +40,7 @@ export default function main() {
   return (
     <div className='main'>
       <div className="container">
-        <h1 className="title">List Launches Past</h1>
+        <h1 className="title">Launches Past</h1>
         <ul>
           <ListLaunchesPast/>
         </ul>
